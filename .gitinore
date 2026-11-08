@@ -1,0 +1,14 @@
+# Konfigurasi database asli
+config/database.php
+
+# Foto selfie dan hasil upload
+uploads/*
+!uploads/.gitkeep
+
+# File sementara
+*.log
+
+# File percobaan dan backup
+absensi_backup.php
+absensi_lama.php
+buat_user.php
